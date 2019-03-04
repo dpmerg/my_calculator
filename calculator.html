@@ -5,12 +5,17 @@ function cube() {
   var num = document.getElementById("n1");
   num.value = Math.pow(num.value, 3);
 }
+function cuadrado() {
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value, 2);
+}
 </script>
 </head>
 <body>
 <h1>David Pradíes</h1>
   Number:
   <input type="text" id="n1"><p>
-  <button onclick="cube()"> x<sup>3</sup> </button>
+    <button onclick="cube()"> x<sup>3</sup> </button>
+    <button onclick="cuadrado()"> x<sup>2</sup> </button>
 </body>
 </html>
